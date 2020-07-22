@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Shop cosmetics</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light bg-sm-light fixed-top pl-5 pr-5" id="navbar">
+			<a class="navbar-brand" href="file:///D:/Program%20Files/Sublime%20Text/OnlineShop/index2.html#">
+		    	<img src="img/logo.png" class="img w-75" alt="">
+		    </a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+		    	<i class="fa fa-bars"></i>
+		  	</button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		        <ul class="navbar-nav text-center col-md-10 col-sm-12">
+			        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
+			        <li class="nav-item dropdown">
+						<a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+						  Something
+						</a>
+					  
+						<div class="dropdown-menu drop" aria-labelledby="dropdownMenuLink">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+			        <li class="nav-item">
+			      		<a class="nav-link" href="#adventure">Adventure</a>
+			      	</li>
+			        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+			    	<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+		        </ul>
+			    <ul class="navbar-nav d-flex justify-content-end col-md-2 col-sm-12">
+					<li class="nav-item dropdown" id="shopping-cart">
+						<a class="nav-link drop-nav" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+							<i class="fa fa-shopping-cart" style="font-size:24px;"></i>	
+							<span class="badge badge-danger">1</span>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right bg-secondary drop" aria-labelledby="dropdownMenuLink">
+							<div class="scroll" style="width: 250px; height: 200px;" >
+								<div class="media">
+									<a class="dropdown-item text-light" href="">
+										<img class="mr-3 img-fluid" src="img/5e58f40956ccb.png" alt="Generic placeholder image" style="width:40px;">
+										<div class="media-body">
+										<h6 class="mt-0">Media heading</h5>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+			    	<li class="nav-item dropdown">
+			    		<a class="nav-link button-search" id="btnSearch" style="cursor: pointer;"><i class="fa fa-search" style="font-size:18px;"></i></a>
+			    	</li>
+					<li class="nav-item"><a class="nav-link mt-1" href="http://127.0.0.1:5500/login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
+			    </ul>
+		    </div>
+		</nav>
+	</header>
+    <section class="contactPage" id="contact">
+		<div class="container-fluid w-100 h-100 pt-5" style="background-color: rgba(0, 0, 0, .5);">
+            <div class="container w-50">
+                <div class="headerText text-center mt-5 mb-0">
+                    <div class="offset-sm-2 col-sm-8">
+                        <h1 class="text-light">Contact</h1>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div class="form-row">
+                        <label class="label-contact">Your name</label>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" required="">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhone" class="label-contact">Phone</label>
+                        <input type="text" class="form-control" id="inputPhone" placeholder="Your phone..."required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="label-contact">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="email@gmail.com"required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTextarea" class="label-contact">Address</label>
+                        <textarea name="textarea" class="form-control" id="inputTextarea" cols="10" rows="3"></textarea>
+                    </div>
+                    <div class="form-group d-flex justify-content-center">
+                        <button type="submit" class="btn btn-light">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+	</section>
+	<footer>
+		<div class="container text-center d-flex flex-column">
+            <div class="pb-3">
+                <a href=""><i class="fa fa-facebook-f" style="font-size: 30px;"></i></a>
+                <a href=""><i class="fa fa-twitter" style="font-size: 30px;"></i></a>
+                <a href=""><i class="fa fa-youtube" style="font-size: 30px;"></i></a>
+            </div>
+			<p>Contact information: <a class="" href="">Shop Cosmetic</a> peterace246@gmail.com</p>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/cart_and_bar.js"></script>
+</body>
+</html>

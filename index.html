@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Shop cosmetics</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light bg-sm-light fixed-top pl-5 pr-5" id="navbar">
+			<a class="navbar-brand" href="file:///D:/Program%20Files/Sublime%20Text/OnlineShop/index2.html#">
+		    	<img src="img/logo.png" class="img w-75" alt="">
+		    </a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+		    	<i class="fa fa-bars"></i>
+		  	</button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		        <ul class="navbar-nav text-center col-md-10 col-sm-12">
+			        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
+			        <li class="nav-item Dropdown">
+						<a class="nav-link" style="cursor: pointer;">
+						  Something
+						</a>
+						<div class="Dropdown-menu position-absolute">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+			        <li class="nav-item">
+			      		<a class="nav-link" href="#adventure">Adventure</a>
+			      	</li>
+			        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+			    	<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+		        </ul>
+			    <ul class="navbar-nav d-flex justify-content-end col-md-2 col-sm-12">
+					<li class="nav-item Dropdown position-relative" id="shopping-cart">
+						<a class="nav-link" style="cursor: pointer;">
+							<i class="fa fa-shopping-cart" style="font-size:24px;"></i>	
+							<span class="badge badge-danger position-absolute">1</span>
+						</a>
+						<div class="Dropdown-menu dropdown-menu-right bg-secondary position-absolute">
+							<div class="scroll" style="width: 250px; height: 200px;" >
+								<div class="media">
+									<a class="dropdown-item text-light" href="">
+										<img class="mr-3 img-fluid" src="img/5e58f40956ccb.png" alt="Generic placeholder image" style="width:40px;">
+										<div class="media-body">
+										<h6 class="mt-0">Media heading</h5>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+			    	<li class="nav-item dropdown">
+			    		<a class="nav-link button-search" id="btnSearch" style="cursor: pointer;"><i class="fa fa-search" style="font-size:18px;"></i></a>
+			    	</li>
+					<li class="nav-item dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown button
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						  </div>
+					</li>
+			    </ul>
+		    </div>
+		</nav>
+	</header>
+
+	
+	<div class="jumbotron jumbotron-fluid height100 banner position-relative pt-0 mt-0" id="home">
+		<div id="carouselExampleIndicators" class="carousel slide position-absolute" data-ride="carousel">
+			
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="w-100" style="object-fit: cover;" src="img/1457066376_2.jpg_crop1899x700.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="w-100" style="object-fit: cover;" src="img/bao-bi-34.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="w-100" style="object-fit: cover;" src="img/1457066397_1447293926_banner4.png.png_crop1899x700.jpg_crop1899x700.jpg" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" style="z-index: 100;" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" style="z-index: 100;" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="container-fluid w-100 h100 position-absolute">
+			<div class="contentBox h100">
+				<div>
+					<h1>Beautiful Comestics</h1>
+					<p>This is comestics all the world.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid searchBg" id="searchBg">
+		<div class="container position-relative w-100 h-100">
+			<span class="closeSearch position-absolute mt-5 pt-5" style="z-index: 100; right:0;"><i class="fa fa-close text-light"></i></span>
+			<div class="contentSearch">
+				<form action="" class="w-50" method="post">
+					<div class="form-group">
+						<input type="text" class="position-relative text-search" name="search" id="search" placeholder="Tìm kiếm" required="">
+						<button type="submit" class="btn position-absolute searchbtn float-right"><i class="fa fa-search" style="font-size:20px;"></i></button>
+						<button type="button" class="btn btn-success" id="1" onclick="">Button1</button>
+						<button type="button" class="btn btn-success" id="2" onclick="">Button2</button>
+						<button type="button" class="btn btn-success" id="3" onclick="">Button3</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<section class="explore" id="explore">
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="placeBox">
+						<a href="">
+							<div class="imgBox">
+								<img src="img/lambo3.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="content">
+								<h3>Lambogini<br/><span>The choose for luxuary</span></h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="placeBox">
+						<a href="">
+							<div class="imgBox">
+								<img src="img/Str.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="content">
+								<h3>Str<br/><span>The choose for driver</span></h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="placeBox">
+						<a href="">
+							<div class="imgBox">
+								<img src="img/Ford-Mustang.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="content">
+								<h3>Mustang<br/><span>The choose for luxuary</span></h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="headerText text-center">
+				<div class="offset-sm-2 col-sm-8">
+					<h1>Explore world</h1>
+					<p>Explore in the world now.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="adventure" id="adventure">
+		<div class="container h100">
+			<div class="contentBox h100">
+				<h1>Adventure</h1>
+				<p>People don't care about what you say,they care about what you build</p>
+				<div class="btn btnD1">
+					<a type="button" href="">Discovery</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog" id="blog">
+		<div class="container">
+			<div class="headerText text-center">
+				<div class="offset-sm-2 col-sm-8">
+					<h1>Blog</h1>
+					<p>This is blog</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="blogPost">
+							<div class="imgBox">
+								<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+							</div>
+							
+							<a href="">
+								<div class="content">
+									<h3>Title<br/><span>1.000.000 VN</span></h3>
+								</div>
+							</a>
+							<div class="button">
+								<a href="#adventure" class="btn btn-success text-light mr-1"><i class="fa fa-plus"></i><i class="fa fa-shopping-cart" style="font-size:20px;"></i></a>
+								<a href="" class="btn btn-danger text-light">Mua</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="blogPost">
+							<div class="imgBox">
+								<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+							</div>
+							
+							<a href="">
+								<div class="content">
+									<h3>Title<br/><span>1.000.000 VN</span></h3>
+								</div>
+							</a>
+							<div class="button">
+								<a href="#adventure" class="btn btn-success text-light mr-1"><i class="fa fa-plus"></i><i class="fa fa-shopping-cart" style="font-size:20px;"></i></a>
+								<a href="" class="btn btn-danger text-light">Mua</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="blogPost">
+							<div class="imgBox">
+								<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+							</div>
+							
+							<a href="">
+								<div class="content">
+									<h3>Title<br/><span>1.000.000 VN</span></h3>
+								</div>
+							</a>
+							<div class="button">
+								<a href="#adventure" class="btn btn-success text-light mr-1"><i class="fa fa-plus"></i><i class="fa fa-shopping-cart" style="font-size:20px;"></i></a>
+								<a href="" class="btn btn-danger text-light">Mua</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="blogPost">
+							<div class="imgBox">
+								<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+							</div>
+							
+							<a href="">
+								<div class="content">
+									<h3>Title<br/><span>1.000.000 VN</span></h3>
+								</div>
+							</a>
+							<div class="button">
+								<a href="#adventure" class="btn btn-success text-light mr-1"><i class="fa fa-plus"></i><i class="fa fa-shopping-cart" style="font-size:20px;"></i></a>
+								<a href="" class="btn btn-danger text-light">Mua</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center mt-5 mb-5">
+				<a class="link-see" href="http://">See more <i class="fa fa-arrow-right"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5"></div>
+				<div class="col-md-7">
+					<div class="headerText text-center mt-5 mb-0">
+						<div class="offset-sm-2 col-sm-8">
+							<h1>Contact</h1>
+							<p>Let's go; Are you realdy to shopping.</p>
+						</div>
+					</div>
+					<form action="" method="post">
+						<div class="form-row">
+							<label>Your name</label>
+						    <div class="col">
+						      	<input type="text" class="form-control" placeholder="First name" required="">
+						    </div>
+						    <div class="col">
+						      	<input type="text" class="form-control" placeholder="Last name" required="">
+						    </div>
+						</div>
+						<div class="form-group">
+							<label for="inputPhone">Phone</label>
+							<input type="text" class="form-control" id="inputPhone" placeholder="Your phone..."required="">
+						</div>
+						<div class="form-group">
+							<label for="inputEmail">Email</label>
+							<input type="email" class="form-control" id="inputEmail" placeholder="email@gmail.com"required="">
+						</div>
+						<div class="form-group">
+							<label for="inputTextarea">Address</label>
+							<textarea name="textarea" class="form-control" id="inputTextarea" cols="10" rows="3"></textarea>
+						</div>
+						<div class="form-group d-flex justify-content-center">
+							<button type="submit" class="btn btn-secondary">Create</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<span class="goTop" id="goTop"><i class="fa fa-angle-up"></i></span>
+	<section class="news" id="news">
+		<div class="container">
+			<div class="headerText text-center">
+				<div class="offset-sm-2 col-sm-8">
+					<h1>News</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="newBox">
+							<a href="">
+								<div class="imgBox">
+									<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="content">
+									<h3>Title</h3>
+									<p>content............</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="newBox">
+							<a href="">
+								<div class="imgBox">
+									<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="content">
+									<h3>Title</h3>
+									<p>content............</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="newBox">
+							<a href="">
+								<div class="imgBox">
+									<img src="img/perfume packaging design.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="content">
+									<h3>Title</h3>
+									<p>content............</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container text-center">
+			<p>Contact information: <a class="" href="">Shop Cosmetic</a> peterace246@gmail.com</p>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/cart_and_bar.js"></script>
+	<script src="js/scroll.js"></script>
+	
+	<!-- <script>
+		// Ajax
+		var a = "hgfhsghf";
+		$.ajax({
+			type: "method",
+			url: "url",
+			data: a,
+			dataType: "dataType",
+			success: function (response) {
+				
+			}
+		});
+	</script> -->
+</html>
